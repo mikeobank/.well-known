@@ -1,5 +1,8 @@
 {
 	"names": {
 		"mikeobank": "1e44b5355fe3dbcc28936a1780cd111f62f2a98b49d2c15e677796aec9b20687"
+	},
+	"relays": {
+		"1e44b5355fe3dbcc28936a1780cd111f62f2a98b49d2c15e677796aec9b20687": ["wss://relay.primal.net", "wss://relay.damus.io"]
 	}
 }
