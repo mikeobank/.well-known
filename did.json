@@ -1,0 +1,26 @@
+{
+	"@context": [
+		"https://www.w3.org/ns/did/v1",
+		"https://w3id.org/security/suites/jws-2020/v1"
+	],
+	"id": "did:web:mikeobank.github.io",
+	"verificationMethod": [
+		{
+			"id": "did:web:mikeobank.github.io#owner",
+			"type": "JsonWebKey2020",
+			"controller": "did:web:mikeobank.github.io",
+			"publicKeyJwk": {
+				"kty": "EC",
+				"crv": "secp256k1",
+				"x": "Q6YeKUrk1DLKGz2HIgHTe/+vYiGqAtTsI22ETnVJRcI=",
+				"y": "eJiyCw5tXteQKYpaAqz3BdUTRQWqnEqrYPjTxMNehJw="	
+			}
+		}
+	],
+	"authentication": [
+		"did:web:mikeobank.github.io#owner"
+	],
+	"assertionMethod": [
+		"did:web:mikeobank.github.io#owner"
+	]
+}
